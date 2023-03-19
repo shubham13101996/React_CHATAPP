@@ -12,19 +12,20 @@ const SendMessage = () => {
       alert("Send Valid Message");
       return;
     }
+    //
+
     try {
-      const { uid, photoURL, displayName } = currentUser;
+      const { uid, displayName, photoURL } = currentUser;
       await addDoc(collection(db, "messages"), {
         text: value,
         name: displayName,
         avatar: photoURL,
-        createdAt: serverTimestamp,
+        createdAt: serverTimestamp(),
         uid,
       });
     } catch (error) {
       console.log(error);
     }
-    console.log(value);
     setValue("");
   };
 
