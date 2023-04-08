@@ -1,3 +1,18 @@
+## How to run file./
+1.Download zip file./
+2.Extract zip file in your sytem./
+3.Open file in VS code./
+4.Open terminal in Vs code./
+5.Run command- npm i./
+6.Run command- npm start./
+
+## Host Link:-
+link: https://shubham13101996.github.io/React_CHATAPP/ 
+
+![chrome_screenshot_shubham13101996 github io (2)](https://user-images.githubusercontent.com/121822895/230707410-a3eaf81a-c579-47a0-bb7d-846d98087a34.png)
+
+![chrome_screenshot_shubham13101996 github io (1)](https://user-images.githubusercontent.com/121822895/230707414-f763d664-d393-48e4-8699-bbab2c7546f8.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
